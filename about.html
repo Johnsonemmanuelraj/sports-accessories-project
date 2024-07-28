@@ -1,0 +1,119 @@
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylejs" href="style.js>"
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+           <a href="project.html"> <img src="images/logo.png" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="menu items">
+                <li><a href="project.html">HOME</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="contact.html">contact</a></li>
+                <li><a href="account.html">account</a></li>
+            </ul>
+        </nav>
+       <a href="cart.html"> <img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" class="menu-icon" onclick="menutoggle()">
+    </div>
+
+    <div>
+        <h1>Welcome to RED Store</h1><br>
+        <p>At RED Store, we're passionate about helping you find the perfect products to enhance your lifestyle. Since our inception in 20XX, we've been dedicated to providing high-quality goods with exceptional customer service.</p>
+        <h2>Our Story</h2><br>
+        <p>RED Store was born out of a desire to offer unique and innovative products that inspire and delight. As avid adventurers and technology enthusiasts, we noticed a gap in the market for high-performance gear that combines functionality with style. Determined to fill that gap, we embarked on a journey to curate a collection of top-of-the-line products from around the world.</p><br>
+         <h1>Quality You Can Trust</h1><br>
+
+            <h3>At redstore, we're committed to excellence in everything we do. Each product in our catalog undergoes rigorous testing to ensure superior quality and performance. Plus, our dedicated team is always on hand to assist you with any questions or concerns you may have.</h3>
+          
+    </div>
+    
+<!-------------brands--------->
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/logo-godrej.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-oppo.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-coca-cola.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-paypal.png" alt="">
+            </div>
+            <div class="col-5">
+                <img src="images/logo-philips.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-------footer----->    
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>download our app</h3>
+                    <p>download app for android and ios mobile phone</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>my purpose is to sustainably make the pleasure and benefits of sports accessible to many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>usefull links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>blog post</li>
+                        <li>return policy</li>
+                        <li>join affliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li>facebook</li>
+                        <li>twitter</li>
+                        <li>instagram</li>
+                        <li>youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright 2020</p>
+        </div>
+    </div>
+    <!-----------js for toggle menu------->
+    <script>
+        var menuitems = documents.getelementbyid("menuitems");
+        menuitems.style.maxheight="0px";
+        function menutoggle(){
+            if (menuitems.style.maxheight == "0px")
+            {
+                menuitems.style.maxheight = "200px";
+            }
+            else{
+                menuitems.style.maxheight = "0px";
+            }
+        }
+        </script>
+</body>
+</html>
